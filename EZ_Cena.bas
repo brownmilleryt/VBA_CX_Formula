@@ -47,3 +47,21 @@ If FuncExit Then
 End If
 
 End Function
+       
+Function zakład(kod As String) As String
+
+Select Case kod
+    Case "K068"
+        zakład = "223"
+    Case "K069"
+        zakład = "253"
+    Case "KB02"
+        zakład = "292"
+    Case "KB05"
+        zakład = "304"
+    Case Else
+        Exit Function
+End Select
+
+
+End Function
